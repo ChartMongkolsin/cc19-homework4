@@ -7,7 +7,7 @@ body{
     font-family: "Krub", serif;
 }
 .post{
-    /* background-color: aqua; */
+   
     width: 480px;
     margin: 100px auto;
     border-radius: 8px;
@@ -15,7 +15,7 @@ body{
     box-shadow: 4px 4px 8px #bbb;
 }
 .row1{
-    /* background-color: antiquewhite; */
+    
     height: 32px;
     display: flex;
     padding: 28px 4px;
@@ -27,7 +27,7 @@ body{
 .avatar{
     width: 36px;
     height: 36px;
-    /* border: 1px solid red; */
+   
     padding: 2px;
     border-radius: 50%;
     overflow: hidden;
@@ -37,7 +37,7 @@ body{
 }
 
 .row1 input{
-    line-height: 1.5; /* height comment */
+    line-height: 1.5; 
     font-size: 16px;
     flex-basis: 100%;
     border: none;
