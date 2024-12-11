@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Krub", serif;
+}
+.post{
+    /* background-color: aqua; */
+    width: 480px;
+    margin: 100px auto;
+    border-radius: 8px;
+    padding: 6px 12px;
+    box-shadow: 4px 4px 8px #bbb;
+}
+.row1{
+    /* background-color: antiquewhite; */
+    height: 32px;
+    display: flex;
+    padding: 28px 4px;
+    align-items: center;
+    gap:8px;
+    border-bottom: 1px solid #aaa6;
+
+}
+.avatar{
+    width: 36px;
+    height: 36px;
+    /* border: 1px solid red; */
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.row1 img{
+    width: 100%;
+}
+
+.row1 input{
+    line-height: 1.5; /* height comment */
+    font-size: 16px;
+    flex-basis: 100%;
+    border: none;
+    background-color: #ddd;
+    padding: 8px;
+    border-radius: 16px;
+}
+.row2{
+    /* background-color: antiquewhite; */
+    margin-top: 4px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.row2 >*{
+    /* border: 1px dashed red; */
+    flex-basis: 100%; /* แบ่งพื้นที่ให้เท่ากัน */
+    cursor: pointer;
+}
+.live, .pic, .reel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.post i{
+ color: deeppink; 
+ font-size: 20; 
+}
+
+.post .fa-video{
+    color: lime;
+}
+
+.post .fa-film{
+    color: orangered;
+    /* position: relative;
+    top: 4px; 
+    left: 16px; */
+}
+.btn:hover{
+    border: 1px solid red;
+    background-color: #eee;
+    border-radius: 8px;
+
+}
